@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 
 class DBConnectionHandler:
     def __init__(self):
-        self.__connection_string = "sqlite:///nlw-connect.db"
+        self.__connection_string = "sqlite:///nlw-connect-python.db"
         self.__engine = self.__create_database_engine()
         self.session = None
 

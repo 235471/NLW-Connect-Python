@@ -8,6 +8,6 @@ class Inscritos(Base):
     nome = Column(String, nullable=False)
     email = Column(String, nullable=False)
     link = Column(String, nullable=True)
-    evento_id = Column(String, ForeignKey("Eventos.id"))
+    evento_id = Column(Integer, ForeignKey("eventos.id"))
 
 
