@@ -1,4 +1,3 @@
-from src.controllers import subscribers
 from src.model.repositories.interfaces.subscribers_repository_interface import SubscriberRepositoryInterface
 from src.http_types.http_request import HttpRequest
 from src.http_types.http_response import HttpResponse
