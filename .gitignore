@@ -174,5 +174,5 @@ poetry.toml
 pyrightconfig.json
 
 #DB
-schema.db
+nlw-connect-python.db
 # End of https://www.toptal.com/developers/gitignore/api/python
