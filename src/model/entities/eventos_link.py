@@ -7,6 +7,4 @@ class EventosLink(Base):
     id = Column(Integer, primary_key=True, autoincrement= True)
     evento_id = Column(Integer, ForeignKey("eventos.id"))
     inscrito_id = Column(Integer, ForeignKey("inscritos.id"))
-    link = Column(String, nullables=False)
-
-
+    link = Column(String, nullable=False)

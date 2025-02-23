@@ -34,7 +34,8 @@ class SubscriberManager:
                     "count": len(formatted_sub),
                     "subscribers": formatted_sub
                 }
-            }
+            },
+            status_code = 200
         )
 
     def __format_event_ranking(self, event_ranking: list) -> HttpResponse:
@@ -54,5 +55,6 @@ class SubscriberManager:
                     "count": len(formatted_event_ranking),
                     "ranking": formatted_event_ranking
                 }
-            }
+            },
+            status_code = 200
         )              

@@ -9,6 +9,7 @@ class EventosLinkRepository(EventosLinkRepositoryInterface):
             try:
                 link_final = ''.join(random.choices('0123456789', k=7))
                 formatted_link = f"evento-{event_id}-{subscriber_id}-{link_final}"
+                
                 new_event_link = EventosLink(
                     evento_id = event_id, 
                     inscrito_id = subscriber_id,
